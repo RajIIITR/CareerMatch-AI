@@ -52,11 +52,11 @@ CareerMatch-AI is an AI-powered tool designed to help job seekers evaluate their
    - Open `http://localhost:8501` in your browser.
 
 ## 📋 Requirements
-- Python 3.10
-- Streamlit
-- PyPDF2
+- Python==3.10
+- streamlit 
+- PyPDF2==3.0.1
+- google.generativeai
 - python-dotenv
-- Google Generative
 ---
 
 ⭐ **Star this repository** if you find it useful!
