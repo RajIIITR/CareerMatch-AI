@@ -16,11 +16,14 @@ CareerMatch-AI is an AI-powered tool designed to help job seekers evaluate their
 - **python-dotenv** (for environment variable management)
 
 ## 🔄 Workflow
-1. **User Input**: The user provides a resume and job description.
-2. **Text Extraction**: The PyPDF2 library extracts text from both documents.
-3. **Processing with LLM**: The extracted text is sent to the Gemini-2.0-Flash model.
-4. **AI Output**: The model evaluates the resume based on a predefined prompt and provides match scores, suggestions, and a profile summary.
-
+1. **User Input**: The user uploads a resume and job description.
+2. **Text Extraction**: The `PyPDF2` library extracts text from the uploaded PDF files.
+3. **Processing with LLM**: The extracted text is passed to the **Gemini-2.0-Flash** LLM model.
+4. **AI-Generated Insights**: The model evaluates the resume based on a predefined prompt and generates:
+   - Match percentage
+   - Profile summary
+   - Optimization suggestions
+  
 ## 📌 How to Run Locally
 
 ### Installation Steps
@@ -56,6 +59,10 @@ CareerMatch-AI is an AI-powered tool designed to help job seekers evaluate their
 
 6. **Access the Web App**
    - Open `http://localhost:8501` in your browser.
+
+  
+## 🌍 Try It Live
+Deployed Model: [CareerMatch-AI Web App](https://careermatch-ai.streamlit.app/)
 
 ## 📋 Requirements
 - Python==3.10
